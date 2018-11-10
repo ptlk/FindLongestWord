@@ -16,14 +16,14 @@ public class FindLongestWordFile {
 		// initialize word length count
 		int length = 0;
 
-		// Find length of the longest word from the given sentence using FOR
-		// LOOP
+		// Find length of the longest word from the given sentence using FOR LOOP
 		for (String word : words) {
 			if (word.length() >= length) {
 				length = word.length();
 			}
 		}
 
+		// Using the Length found, of the longest word, in previous FOR Loop
 		// Print the longest word(s) from the sentence, using FOR LOOP
 		for (String word : words) {
 			if (word.length() == length) {
