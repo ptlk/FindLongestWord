@@ -1,0 +1,5 @@
+1)Import Project From GitHub
+2)Go to FindLongestWord project
+3)Go to FindLongestWordpackage package
+4)Go to FindLongestWordFile class
+5)Execute Test
